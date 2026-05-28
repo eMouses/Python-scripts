@@ -11,27 +11,27 @@ pip install requests beautifulsoup4 fake-useragent cloudscraper
 
 - Базовое использование
 
-python check_bookmarks.py bookmarks.html
+python3 check_bookmarks.py bookmarks.html
 
 - С указанием выходного файла
 
-python check_bookmarks.py bookmarks.html -o report.html
+python3 check_bookmarks.py bookmarks.html -o report.html
 
 - С настройкой параметров
   
-python check_bookmarks.py bookmarks.html -t 15 -w 10 -d 0.3
+python3 check_bookmarks.py bookmarks.html -t 15 -w 10 -d 0.3
 
 - Отключить обход блокировок
   
-python check_bookmarks.py bookmarks.html --no-stealth
+python3 check_bookmarks.py bookmarks.html --no-stealth
 
 - Использовать прокси (создайте файл proxies.txt)
   
-python check_bookmarks.py bookmarks.html --use-proxies
+python3 check_bookmarks.py bookmarks.html --use-proxies
 
 - Комбинированные настройки
 
-python check_bookmarks.py bookmarks.html -t 20 -w 5 --use-proxies
+python3 check_bookmarks.py bookmarks.html -t 20 -w 5 --use-proxies
 
 # Параметры командной строки:
 
